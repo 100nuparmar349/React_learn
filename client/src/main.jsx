@@ -1,10 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import {BrowserRouter} from 'react-router-dom'
 // import Apps from './Apps.jsx'
 import './index.css'
+import Spotify from './Clone/Spotify'
+
+// import Lecture1 from './lecture/Lecture1'
+
+
 
 // import Button from './Button/Button'
-import Cascading from './Tailwind/Cascading'
+// import Cascading from './Tailwind/Cascading'
 // import Password from './PasswordGenerator/Password'
 // import ConvertCurrency from './Convert_USD/ConvertCurrency'
 
@@ -28,8 +34,11 @@ import Cascading from './Tailwind/Cascading'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Cascading/>
-  </React.StrictMode>,
+  {/* <BrowserRouter>
+  <Lecture1/>
+  </BrowserRouter> */}
+  <Spotify/>
+  </React.StrictMode>
 )
 
 

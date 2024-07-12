@@ -9,6 +9,7 @@ const Cascading = () => {
       </div>
 
       <h1 className=' font-bold text-base'>Font weight</h1>
+      
 
 
     <div>
