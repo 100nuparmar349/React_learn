@@ -15,7 +15,7 @@ const Color = () => {
 
               <button onClick={()=> setcolor("blue")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg" style={{backgroundColor:"blue"}}>Blue</button>
 
-              <button onClick={()=> setcolor("pink")} className="px-4 py-1 rounded-full text-white shadow-lg" style={{backgroundColor:"pink"}}>Pink</button>
+              <button onClick={()=> setcolor("purple")} className="px-4 py-1 rounded-full text-white shadow-lg bg-purple-500">Pink</button>
 
             </div>
            

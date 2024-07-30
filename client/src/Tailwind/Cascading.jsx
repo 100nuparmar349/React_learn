@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './indexs.css'
 const Cascading = () => {
   return (
     <div className='w-full h-full flex flex-col m-4 justify-center border border-orange-400'>
@@ -31,6 +31,23 @@ const Cascading = () => {
   Hover me
 </button>
     </div>
+
+
+    <div className=' w-52 h-52 bg-green-500 hover:bg-red-600 hover:rounded-full transition-all duration-1000 delay-200'>
+</div>
+
+<div className=' w-52 h-52 bg-green-500 hover:bg-red-600  transform rotate-45  translate-x-20 translate-y-20 '>
+</div>
+
+<div className=' w-52 h-52 bg-green-500 hover:bg-red-600  transform  rotate-45 translate-x-7 translate-y-44 skew-x-12 '>
+
+<h1>Skew</h1>
+</div>
+
+
+
+
+
 
     
     </div>

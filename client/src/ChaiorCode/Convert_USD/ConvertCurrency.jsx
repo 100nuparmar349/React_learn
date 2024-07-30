@@ -1,5 +1,8 @@
 import React from 'react'
+import Usecurrency from './Hooks/Usecurrency'
 
+
+// Hooks is a function
 const ConvertCurrency = () => {
   return (
     <div className='w-screen h-screen grid place-items-center bg-cover bg-no-repeat'   style={{
@@ -15,7 +18,7 @@ const ConvertCurrency = () => {
             </div>
         
         </div>
-
+<Usecurrency/>
       
     </div>
   )

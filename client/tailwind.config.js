@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+// /** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -9,7 +9,13 @@ export default {
       colors:{
         customGray: '#151617',
         bg100:'#2d2d2e',
-      }
+        lightpurple:'#be2edd',
+        pinkextra:`#f003fc`,
+      },
+      
+      // transitionDuration: {
+      //   '1000': '2000ms',
+      // },
     },
   },
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from './NavBar'
+import NavBar from './Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import Contact from './Contact'
