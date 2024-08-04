@@ -22,7 +22,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
 }  */
-
+#root{
+  background-color: rgb(161, 162, 163);
+}
 /*
 
 a {

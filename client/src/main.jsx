@@ -27,6 +27,7 @@ import Apppr from './Props/Apppr'
 import App_context from './UseContext/App_context'
 import To from './Todolist/To'
 import Appdummy from './Dynamic_routing/Appdummy'
+import Flipkart from './Flipkart_clone/Flipkart'
 
 
 
@@ -59,13 +60,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </Context.Provider> */}
     {/* <To/> */}
   
-   
+{/*    
     <BrowserRouter>
     <Appdummy/>
     
     
     
-    </BrowserRouter>
+    </BrowserRouter> */}
+    <Flipkart/>
     
   </React.StrictMode>
 )
