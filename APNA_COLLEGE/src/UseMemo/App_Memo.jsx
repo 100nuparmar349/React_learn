@@ -12,7 +12,7 @@ const App_Memo = () => {
     };
 
     // Function to increase cnt and update numbers
-    const done = () => {
+    const done =()=> {
         setCnt(cnt + 1);
     };
 

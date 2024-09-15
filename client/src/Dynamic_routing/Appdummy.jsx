@@ -10,6 +10,7 @@ const Appdummy = () => {
 navigate('/')
 
     },5000)
+    // we use navigate to redirect our main page after  5second.
   return (
     <div>
        

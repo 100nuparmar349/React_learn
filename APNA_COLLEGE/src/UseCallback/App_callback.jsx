@@ -8,21 +8,18 @@ const App_callback = () => {
         setcount(count++);
     }
 
-    // functio basically freeze ho gaya hai . usecall back function ko memoize karta hai .
-    // const getadjective=useCallback(()=>{
-    //     return "another"+count;
-    // },[count]);
-    const getadjective=useMemo(()=>{
+    // function basically freeze ho gaya hai . usecall back function ko memoize karta hai .
+    const getadjective=useCallback(()=>{
         return "another"+count;
     },[count]);
+    // const getadjective=useMemo(()=>{
+    //     return "another"+count;
+    // },[count]);
   return (
     <div>
         <p>{count}
        
         <Navbar adjective={"Good"} getadjective={getadjective}/>
-
-       
-    
         </p>
         
       <button onClick={fun}>Click</button>

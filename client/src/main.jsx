@@ -14,7 +14,7 @@ import './index.css'
 
 import Lecture1 from './lecture/Lecture1'
 import Form from './lecture/Form'
-import Color from './backgroundProject/Color'
+// import Color from './backgroundProject/Color'
 import Usecallback from './lecture/Usecallback'
 import UseEffect from './lecture/Effects'
 import Effects from './lecture/Effects'
@@ -61,13 +61,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <To/> */}
   
 {/*    
-    <BrowserRouter>
-    <Appdummy/>
+    */}
+   
+   <BrowserRouter>
+     <Flipkart/>
     
     
     
-    </BrowserRouter> */}
-    <Flipkart/>
+    </BrowserRouter>
     
   </React.StrictMode>
 )
